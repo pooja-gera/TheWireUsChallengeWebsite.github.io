@@ -1,0 +1,461 @@
+/*The following properties are in accordance with screen size 3072x1920. Please adjust your measurements accordingly. The website has to be made responsive.
+
+PAGES TO BE MADE:
+1. Heading: Competitive Programming (only top-left container has to be kept for this page)
+2. Heading: Web Development (only first row of containers and bottom-left container have to be kept for this page)
+3. Heading: Machine Learning (all containers have to be kept for this page)
+4. Heading: UI Design (only top-left and top-center containers have to be kept for this page)
+
+Make sure that you don't change the design. 
+
+*/
+
+.heading {
+  position: absolute;
+  width: 1248px;
+  height: 189px;
+  left: 911.23px;
+  top: 78.69px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 125px;
+  line-height: 125px;
+  /* or 100% */
+  text-align: center;
+  color: #3d3434;
+}
+
+.click-to-go-back {
+  position: absolute;
+  width: 549px;
+  height: 41px;
+  left: 1261.23px;
+  top: 353.69px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 47.9731px;
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+  color: #ca6e2c;
+}
+
+.background-rectangle-container {
+  width: 2691.41px;
+  height: 1577px;
+  left: 181.5px;
+  top: 540.35px;
+  background: #f9f5f1;
+}
+
+.top-left-container {
+  position: absolute;
+  width: 643.65px;
+  height: 406.02px;
+  left: 428px;
+  top: 739px;
+  background: #5d729c;
+  box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+.top-left-content-container {
+  position: absolute;
+  width: 484.12px;
+  height: 273.68px;
+  left: 509.81px;
+  top: 818.58px;
+}
+
+.top-left-heading {
+  position: absolute;
+  width: 484.12px;
+  height: 178.49px;
+  left: 509.81px;
+  top: 818.58px;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 74.4651px;
+  line-height: 87px;
+  /* or 117% */
+  color: #DFDFDF;
+}
+
+.top-left-image {
+  position: absolute;
+  width: 60.98px;
+  height: 60.98px;
+  left: 509.81px;
+  top: 1031.28px;
+  background: url(HONOR-9X-Selfie-Example-001.jpg);
+  border-radius: 175.271px;
+}
+
+.top-left-image-title {
+  position: absolute;
+  width: 190.39px;
+  height: 35.7px;
+  left: 586.41px;
+  top: 1034.25px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.0804px;
+  line-height: 34px;
+  /* or 100% */
+  color: #DFDFDF;
+}
+
+.top-left-image-tagline {
+  position: absolute;
+  width: 155.43px;
+  height: 19.34px;
+  left: 586.41px;
+  top: 1069.95px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15.4415px;
+  line-height: 15px;
+  /* or 100% */
+  color: #DFDFDF;
+}
+
+.top-center-container {
+  position: absolute;
+  width: 643.65px;
+  height: 406.02px;
+  left: 1213.35px;
+  top: 739px;
+  background: #c44239;
+  box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+.top-center-content-container {
+  position: absolute;
+  width: 484.12px;
+  height: 273.68px;
+  left: 1295.16px;
+  top: 818.58px;
+}
+
+.top-center-heading {
+  position: absolute;
+  width: 484.12px;
+  height: 178.49px;
+  left: 1295.16px;
+  top: 818.58px;
+  font-family: TT Norms;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 74.4651px;
+  line-height: 87px;
+  /* or 117% */
+  color: #DFDFDF;
+}
+
+.top-center-image {
+  position: absolute;
+  width: 60.98px;
+  height: 60.98px;
+  left: 1295.16px;
+  top: 1031.28px;
+  background: url(HONOR-9X-Selfie-Example-001.jpg);
+  border-radius: 175.271px;
+}
+
+
+
+.top-center-image-title {
+  
+    position: absolute;
+    width: 190.39px;
+    height: 35.7px;
+    left: 1371.76px;
+    top: 1034.25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.0804px;
+    line-height: 34px;
+    /* or 100% */
+    color: #27272F;
+  }
+  .top-center-image-tagline {
+    position: absolute;
+    width: 155.43px;
+    height: 19.34px;
+    left: 1371.76px;
+    top: 1069.95px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4415px;
+    line-height: 15px;
+    /* or 100% */
+    color: #27272F;
+  }
+  .top-right-container {
+    position: absolute;
+    width: 643px;
+    height: 406px;
+    left: 1999px;
+    top: 1145px;
+    background: #27272f;
+    box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  .top-right-content-container {
+    position: absolute;
+    width: 484.12px;
+    height: 270.71px;
+    left: 2080.52px;
+    top: 818.58px;
+  }
+  .top-right-heading {
+    position: absolute;
+    width: 484.12px;
+    height: 178.49px;
+    left: 2080.52px;
+    top: 818.58px;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74.4651px;
+    line-height: 87px;
+    /* or 117% */
+    color: #FFFFFF;
+  }
+  .top-right-image {
+    position: absolute;
+    width: 60.98px;
+    height: 60.98px;
+    left: 2084.23px;
+    top: 1031.69px;
+    background: url(HONOR-9X-Selfie-Example-001.jpg);
+    border-radius: 175.271px;
+  }
+  .top-right-image-tagline {
+    position: absolute;
+    width: 155.43px;
+    height: 19.34px;
+    left: 2157.12px;
+    top: 1069.95px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4415px;
+    line-height: 15px;
+    /* or 100% */
+    color: #FFFFFF;
+  }
+  .bottom-left-container {
+    position: absolute;
+    width: 643.65px;
+    height: 406.02px;
+    left: 428px;
+    top: 1269.4px;
+    background: #5d729c;
+    box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+  }
+  .bottom-left-content-container {
+    position: absolute;
+    width: 484.12px;
+    height: 273.68px;
+    left: 509.81px;
+    top: 1348.97px;
+  }
+  .bottom-left-heading {
+    position: absolute;
+    width: 484.12px;
+    height: 178.49px;
+    left: 509.81px;
+    top: 1348.97px;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74.4651px;
+    line-height: 87px;
+    /* or 117% */
+    color: #DFDFDF;
+  }
+  
+  .bottom-left-image {
+    position: absolute;
+    width: 60.98px;
+    height: 60.98px;
+    left: 509.81px;
+    top: 1561.67px;
+    background: url(HONOR-9X-Selfie-Example-001.jpg);
+    border-radius: 175.271px;
+  }
+  .bottom-left-image-title {
+    position: absolute;
+    width: 190.39px;
+    height: 35.7px;
+    left: 586.41px;
+    top: 1564.65px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.0804px;
+    line-height: 34px;
+    /* or 100% */
+    color: #DFDFDF;
+  }
+  .bottom-left-image-tagline {
+    position: absolute;
+    width: 155.43px;
+    height: 19.34px;
+    left: 586.41px;
+    top: 1600.35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4415px;
+    line-height: 15px;
+    /* or 100% */
+    color: #DFDFDF;
+  }
+  .bottom-center-container {
+    position: absolute;
+    width: 643.65px;
+    height: 406.02px;
+    left: 1213.35px;
+    top: 1269.4px;
+    background: #c44239;
+    box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+  }
+  .bottom-center-content-container {
+    position: absolute;
+    width: 484.12px;
+    height: 273.68px;
+    left: 1295.16px;
+    top: 1348.97px;
+  }
+  .bottom-center-heading {
+    position: absolute;
+    width: 484.12px;
+    height: 178.49px;
+    left: 1295.16px;
+    top: 1348.97px;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74.4651px;
+    line-height: 87px;
+    /* or 117% */
+    color: #DFDFDF;
+  }
+  .bottom-center-image {
+    position: absolute;
+    width: 60.98px;
+    height: 60.98px;
+    left: 1295.16px;
+    top: 1561.67px;
+    background: url(HONOR-9X-Selfie-Example-001.jpg);
+    border-radius: 175.271px;
+  }
+  .bottom-center-image-title {
+    position: absolute;
+    width: 190.39px;
+    height: 35.7px;
+    left: 1371.76px;
+    top: 1564.65px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.0804px;
+    line-height: 34px;
+    /* or 100% */
+    color: #DFDFDF;
+  }
+  .bottom-center-image-tagline {
+    position: absolute;
+    width: 155.43px;
+    height: 19.34px;
+    left: 1371.76px;
+    top: 1600.35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4415px;
+    line-height: 15px;
+    /* or 100% */
+    color: #DFDFDF;
+  }
+  .bottom-right-container {
+    position: absolute;
+    width: 643.65px;
+    height: 406.02px;
+    left: 1998.71px;
+    top: 1269.4px;
+    background: #27272f;
+    box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+  }
+  .bottom-right-content-container {
+    position: absolute;
+    width: 484.12px;
+    height: 273.68px;
+    left: 2080.52px;
+    top: 1348.97px;
+  }
+  .bottom-right-heading {
+    position: absolute;
+    width: 484.12px;
+    height: 178.49px;
+    left: 2080.52px;
+    top: 1348.97px;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74.4651px;
+    line-height: 87px;
+    /* or 117% */
+    color: #FFFFFF;
+  }
+  .bottom-right-image {
+    position: absolute;
+    width: 60.98px;
+    height: 60.98px;
+    left: 2084.23px;
+    top: 1561.69px;
+    background: url(HONOR-9X-Selfie-Example-001.jpg);
+    border-radius: 175.271px;
+  }
+  .bottom-right-image-title {
+    position: absolute;
+    width: 190.39px;
+    height: 35.7px;
+    left: 2157.12px;
+    top: 1564.65px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.0804px;
+    line-height: 34px;
+    /* or 100% */
+    color: #FFFFFF;
+  }
+  .bottom-right-image-tagline {
+    position: absolute;
+    width: 155.43px;
+    height: 19.34px;
+    left: 2157.12px;
+    top: 1600.35px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.4415px;
+    line-height: 15px;
+    /* or 100% */
+    color: #FFFFFF;
+  }
