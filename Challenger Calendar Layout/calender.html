@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Calender</title>
+    <title>Bootstrap 4 Example</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="calender.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -15,68 +15,164 @@
 </head>
 
 <body style=" background-color: #192131;">
+    <!-- <div class="container" id="myGroup">
+        <p>
 
-    <div class="container fluid">
+
+        </p>
+
+
+    </div> -->
+    <div class="container fluid" id="myGroup">
         <div class="rectangle-containing-calendar">
+
+
             <div class="row">
                 <div class="col leftcol">
-                    <topic class="heading">Competitive Programming</topic>
-                    <hr class="underline">
-                    <div class="row" style="padding: 5px;">
-                        <div class="col-sm numberselected">1</div>
-                        <div class=" col-sm number"><a href="#">2</a></div>
-                        <div class=" col-sm number"><a href="#">3</a></div>
-                        <div class=" col-sm number"><a href="#">4</a></div>
-                        <div class=" col-sm number"><a href="#">5</a></div>
-                        <div class=" col-sm number"><a href="#">6</a></div>
-                        <div class=" col-sm number"><a href="#">7</a></div>
-                    </div>
-                    <div class="row" style="padding: 5px;">
-                        <div class="col-sm number"><a href="#">8</a></div>
-                        <div class=" col-sm number"><a href="#">9</a></div>
-                        <div class=" col-sm number"><a href="#">10</a></div>
-                        <div class=" col-sm number"><a href="#">11</a></div>
-                        <div class=" col-sm number"><a href="#">12</a></div>
-                        <div class=" col-sm number"><a href="#">13</a></div>
-                        <div class=" col-sm number"><a href="#">14</a></div>
-                    </div>
-                    <div class="row" style="padding: 5px;">
-                        <div class="col-sm number"><a href="#">15</a></div>
-                        <div class=" col-sm number"><a href="#">16</a></div>
-                        <div class=" col-sm number"><a href="#">17</a></div>
-                        <div class=" col-sm number"><a href="#">18</a></div>
-                        <div class=" col-sm number"><a href="#">19</a></div>
-                        <div class=" col-sm number"><a href="#">20</a></div>
-                        <div class=" col-sm number"><a href="#">21</a></div>
-                    </div>
-                    <div class="row" style="padding: 5px;">
-                        <div class="col-sm number"><a href="#">22</a></div>
-                        <div class=" col-sm number"><a href="#">23</a></div>
-                        <div class=" col-sm number"><a href="#">24</a></div>
-                        <div class=" col-sm number"><a href="#">25</a></div>
-                        <div class=" col-sm number"><a href="#">26</a></div>
-                        <div class=" col-sm number"><a href="#">27</a></div>
-                        <div class=" col-sm number"><a href="#">28</a></div>
-                    </div>
 
+                    <topic class="heading ">Competitive Programming</topic>
+                    <hr class="underline ">
+
+                    <div id="daysofchallenge" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="padding:5%">
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number  " id="first" data-toggle="collapse" data-target="#day1" aria-expanded="false" aria-controls="day1"> <a>1</a></div>
+
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day2" aria-expanded="false" aria-controls="day2"> <a>2 </a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day3" aria-expanded="false" aria-controls="day3"><a>3</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day4" aria-expanded="false" aria-controls="day4"><a>4</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day5" aria-expanded="false" aria-controls="day5"><a>5</a></div>
+                                    <div class=" col-sm number "><a>6</a></div>
+                                    <div class=" col-sm number "><a>7</a></div>
+                                </div>
+
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number "><a>8</a></div>
+                                    <div class=" col-sm number "><a>9</a></div>
+                                    <div class=" col-sm number "><a>10</a></div>
+                                    <div class=" col-sm number "><a>11</a></div>
+                                    <div class=" col-sm number "><a>12</a></div>
+                                    <div class=" col-sm number "><a>13</a></div>
+                                    <div class=" col-sm number "><a>14</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number "><a>15</a></div>
+                                    <div class=" col-sm number "><a>16</a></div>
+                                    <div class=" col-sm number "><a>17</a></div>
+                                    <div class=" col-sm number "><a>18</a></div>
+                                    <div class=" col-sm number "><a>19</a></div>
+                                    <div class=" col-sm number "><a>20</a></div>
+                                    <div class=" col-sm number "><a>21</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number "><a>22</a></div>
+                                    <div class=" col-sm number "><a>23</a></div>
+                                    <div class=" col-sm number "><a>24</a></div>
+                                    <div class=" col-sm number "><a>25</a></div>
+                                    <div class=" col-sm number "><a>26</a></div>
+                                    <div class=" col-sm number "><a>27</a></div>
+                                    <div class=" col-sm number "><a>28</a></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number "><a>22</a></div>
+                                    <div class=" col-sm number "><a>23</a></div>
+                                    <div class=" col-sm number "><a>24</a></div>
+                                    <div class=" col-sm number "><a>25</a></div>
+                                    <div class=" col-sm number "><a>26</a></div>
+                                    <div class=" col-sm number "><a>27</a></div>
+                                    <div class=" col-sm number "><a>28</a></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number "><a>22</a></div>
+                                    <div class=" col-sm number "><a>23</a></div>
+                                    <div class=" col-sm number "><a>24</a></div>
+                                    <div class=" col-sm number "><a>25</a></div>
+                                    <div class=" col-sm number "><a>26</a></div>
+                                    <div class=" col-sm number "><a>27</a></div>
+                                    <div class=" col-sm number "><a>28</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#daysofchallenge" role="button" data-slide="prev">
+                           Previous
+
+                        </a>
+                        <a href="#daysofchallenge" role="button" data-slide="next">
+Next
+
+                        </a>
+                    </div>
 
                 </div>
-                <div class="col rightcol">
 
-                    <div class="topic-display-container">
-                        <div class="background-panda">
-                            <div class="topic-heading-challenge">
-                                <div class=" heading1">Data</div>
-                                <div class=" heading2">PreProcesing</div>
+                <div class="col rightcol ">
+
+                    <div class="topic-display-container ">
+                        <div class="background-panda ">
+                            <div class="topic-heading-challenge ">
+                                <div class=" collapse show" id="day1" data-parent="#myGroup">
+                                    <div class=" heading1">Data</div>
+                                    <div class=" heading2">PreProcesing</div>
+                                </div>
+                                <div class="collapse " id="day2" data-parent="#myGroup">
+                                    <div class=" heading1">day2</div>
+                                    <div class=" heading2">content</div>
+                                </div>
+                                <div class="collapse " id="day3" data-parent="#myGroup">
+                                    <div class=" heading1">day3</div>
+                                    <div class=" heading2">content</div>
+                                </div>
+                                <div class="collapse " id="day4" data-parent="#myGroup">
+                                    <div class=" heading1">day4</div>
+                                    <div class=" heading2">content</div>
+                                </div>
+                                <div class="collapse " id="day5" data-parent="#myGroup">
+                                    <div class=" heading1">day5</div>
+                                    <div class=" heading2">content</div>
+                                </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
+            <!-- <script>
+                $(document).ready(function() {
+                    $('.number>a').click(function() {
+                        $('selector.active').removeClass("active");
+                        $(this).addClass("active");
+                        $('this').addClass("numberselected");
 
+                    });
+                });
+            </script> -->
+            <script>
+                // $(document).ready(function() {
+                //         $(".day1").addClass("numberselected");
+                //         $(".number").click(function() {
+
+                //             $(this).toggleClass('numberselected');
+
+
+                //             // Add 'active' tag for currently selected item 
+
+                //         });
+                //     })
+                $('#first').addClass('numberselected');
+                $('.number').click(function(e) {
+
+                    $('.numberselected').removeClass('numberselected');
+
+                    var $this = $(this);
+                    $this.addClass('numberselected');
+                    e.preventDefault();
+                });
+            </script>
 </body>
 
 </html>

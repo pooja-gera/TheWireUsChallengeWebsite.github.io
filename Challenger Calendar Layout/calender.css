@@ -96,12 +96,12 @@ body {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    color: #FFF7ED;
+    font-size: 15px;
+    color: #252019;
     background: #768FC1;
     border-radius: 105px;
     margin: 1%;
-    padding: 5px 5px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -114,19 +114,22 @@ body {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 15px;
     color: #27272F;
     margin: 1%;
     padding: 5px 5px;
     text-align: center;
+    cursor: pointer;
 }
 
-.number>a {
+.number>a,
+.numberselected>a {
     color: rgb(0, 0, 0);
     transition: 0.3s;
 }
 
-.number>a:hover {
+.number>a:hover,
+.numberselected>a:hover {
     opacity: 0.7;
     text-decoration: none;
 }
