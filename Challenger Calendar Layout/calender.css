@@ -28,6 +28,7 @@ body {
 }
 
 .heading {
+    font-family: Montserrat;
     font-style: normal;
     font-size: 27.6042px;
     line-height: 28px;
@@ -60,12 +61,18 @@ body {
 }
 
 .heading1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
     text-align: center;
     margin: 0;
     font-size: 75px;
 }
 
 .heading2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
     text-align: center;
     margin: 0;
 }
@@ -148,5 +155,14 @@ body {
     div.numberselected {
         width: 11%;
         padding: 2px;
+    }
+}
+
+@media (min-width: 315px) and (max-width: 515px) {
+    /* For mobile phones: */
+    div.number,
+    div.numberselected {
+        width: 11%;
+        padding: 1px;
     }
 }
