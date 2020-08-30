@@ -93,7 +93,7 @@
      font-family: 'Old Standard TT', serif;
      font-style: normal;
      font-weight: bold;
-     font-size: 24px;
+     font-size: xx-large;
      text-align: center;
      /* line-height: 80px; */
      /* or 117% */
@@ -109,7 +109,11 @@
  .bottom-center-image {
      width: 80%;
      display: flex;
-     margin: 10px auto;
+     margin: 2% auto;
+ }
+ 
+ .bottom-center-image {
+     margin-top: 15%;
  }
  
  .top-left-image img,
@@ -176,7 +180,7 @@
      /* or 100% */
      color: #DFDFDF;
      padding-left: 15px;
-     font-size: 24px;
+     font-size: x-small;
      font-weight: 800;
  }
  /* Responsive Section */
