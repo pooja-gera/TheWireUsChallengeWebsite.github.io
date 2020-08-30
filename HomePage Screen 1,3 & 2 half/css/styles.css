@@ -263,6 +263,186 @@
     color: #E1E1E1;
 }
 
+.signforchallenges {
+    background: #1D1D41;
+    box-shadow: 0px 3.42949px 3.42949px rgba(0, 0, 0, 0.25);
+    border-radius: 42.8px;
+    margin-top: 5%;
+}
+
+.singupforchallengetitle {
+    padding: 15%;
+    padding-top: 5%;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.number {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    background: #E1E1E1;
+    border-radius: 42.8px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.text {
+    color: #E1E1E1;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 45%;
+}
+
+.competetivep_card,
+.design_card,
+.webdev_card,
+.ml_card {
+    background: #E2E2E2;
+    border-radius: 25px;
+    margin: 0 25%;
+}
+
+.logo {
+    background: #1D1D41;
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    padding: 20%;
+}
+
+.nameoftopic {
+    padding: 10%;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: bold;
+    color: #D6D6D6;
+    font-size: 40px;
+}
+
+.maintopic {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.topicdetails {
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.sinupdetails1 {
+    padding-left: 15px;
+    padding-top: 35px
+}
+
+.sinupdetails2 {
+    padding-left: 15px;
+    padding-top: 15px
+}
+
+.sinupdetails3 {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.carouseltopics {
+    position: absolute;
+    margin-top: 30%;
+}
+
+.carousel-item {
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(1, 2, 5, 1);
+}
+/*
+@media (min-width:900px) and (max-width:1200px) {
+    .nameoftopic {
+        font-size: xx-large;
+    }
+}
+
+@media (min-width:500px) and (max-width:900px) {
+    .nameoftopic {
+        font-size: xx-large;
+    }
+
+    .competetivep_card,
+    .design_card,
+    .webdev_card,
+    .ml_card {
+        margin: 0 20%;
+    }
+}
+
+@media (min-width:0px) and (max-width:550px) {
+    .nameoftopic {
+        font-size: xx-large;
+    }
+
+    .maintopic {
+        font-size: larger;
+    }
+
+    .text {
+        margin-right: 20%;
+    }
+
+    .competetivep_card,
+    .design_card,
+    .webdev_card,
+    .ml_card {
+        margin: 0 10%;
+    }
+
+    .sinupdetails1,
+    .sinupdetails2,
+    .sinupdetails3 {
+        padding-left: 55px;
+    }
+
+    .singupforchallengetitle {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 2%;
+    }
+}
+
+@media (min-width:550px) and (max-width:850px) {
+    .singupforchallengetitle {
+        font-size: 35px;
+        line-height: 35px;
+        padding-bottom: 2%;
+    }
+
+    .sinupdetails1,
+    .sinupdetails2,
+    .sinupdetails3 {
+        padding-left: 55px;
+    }
+}
+
+.carousel-indicators {
+    top: 110%;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(12, 9, 9);
+}
+*/
 /*Screen 3 CSS*/
 .container-fluid{
     overflow: hidden;
@@ -307,3 +487,162 @@
 }
 
 /*Screen 4 CSS*/
+
+.backcolor4{
+    position: absolute;
+    top: 310vh;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-color: white;
+}
+
+  /* Make the image fully responsive */
+  
+.slide {
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.meetus {
+    margin: 0 10%;
+    margin-top: 25px;
+    margin-right: 0;
+    border-radius: 25px;
+    background-color: red;
+}
+
+.meetushead {
+    margin: auto;
+    font-size: large;
+    color: #fff;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.followus {
+    border-radius: 25px;
+    background: #27272F;
+    margin: 0 10%;
+    margin-top: 25px;
+}
+/* */
+
+.d-block {
+    width: 30%;
+    height: 125px;
+    border-radius: 50%;
+    margin: 50px auto;
+    margin-bottom: 15px;
+}
+
+.followustitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFF7ED;
+    text-align: center;
+    margin: auto;
+}
+
+.name {
+    font-size: x-large;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.creator {
+    background-color: blue;
+    margin: 0 10%;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.position {
+    font-size: large;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.team {
+    animation-name: team;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.creatoritem {
+    animation-name: creatoritem;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.followus {
+    padding: 10%;
+}
+
+.followustitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.socialimage {
+    max-width: 65px;
+}
+
+@keyframes team {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(200px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes creatoritem {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(-200px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .meetus {
+        margin: 0 10%;
+        margin-top: 25px;
+        border-radius: 25px;
+        background-color: red;
+    }
+    .socialimage {
+        max-width: 45px;
+        max-height: 105px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .d-block {
+        width: 40%;
+        height: 90px;
+    }
+    .socialimage {
+        max-width: 25px;
+        max-height: 105px;
+    }
+    .followustitle {
+        font-size: large;
+    }
+}
