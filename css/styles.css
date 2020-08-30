@@ -6,11 +6,83 @@
 
 /*Screen 1 CSS*/
 
-.jumbotron {
-    background-image: url(../assets/head.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
+
+
+@media (min-width:0px) and (max-width:550px) {
+   .jumbotron{
+        background-image: url(../assets/head.png);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        height: 300px;
+        /*height: 100vh;*/
+   }
+
+   .arrow {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        
+        transform: translate(-50%, -50%);
+    }
+
+    .arrow span {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-bottom: 5px solid #ffffff;
+        border-right: 5px solid #ffffff;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+
+    .dot {
+        position: absolute;
+        bottom: 30%;
+        left: 0%;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: black;
+    }
+
+}
+
+@media (min-width:550px) and (max-width:5000px) {
+    .jumbotron {
+        background-image: url(../assets/head.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .arrow span {
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-bottom: 5px solid #ffffff;
+        border-right: 5px solid #ffffff;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+
+    .dot {
+        position: absolute;
+        bottom: 7.4vw;
+        left: 69.2%;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
 }
 
 .head1 {
@@ -38,24 +110,6 @@
     left: 50%;
     bottom: 9.7vw;
     color: rgba(255, 255, 255, 0.8);
-}
-
-.arrow {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.arrow span {
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid #ffffff;
-    border-right: 5px solid #ffffff;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 2s infinite;
 }
 
 .arrow span:nth-child(2) {
