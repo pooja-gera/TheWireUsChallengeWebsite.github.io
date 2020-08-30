@@ -19,7 +19,6 @@ body {
 .divLinkStyle {
   display: grid;
   height: fit-content;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -39,65 +38,65 @@ body {
   font-family: Poppins;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
+  color: #ca6e2c;
+}
+
+.click-to-go-back:hover {
   color: #ca6e2c;
 }
 
 .topic-container {
-  padding: 50px;
+  padding: 25px 50px 0px;
 }
 
 .background-rectangle-container {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 0.6fr));
-  grid-gap: 3em;
   background: #f9f5f1;
-  padding: 50px 100px;
 }
 
 .top-left-container {
-  /* position: absolute; */
-  width: 350px;
-  height: 100%;
-  /* left: 428px;
-  top: 739px; */
+  margin: 1.5% 3%;
+  margin-left: 4.5%;
+  /* position: relative; */
+  width: auto;
+  height: auto;
   background: #5d729c;
   box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
 }
 
 .top-left-heading {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: fit-content;
   /* left: 509.81px;
-  top: 818.58px; */
-  font-family: TT Norms;
+top: 818.58px; */
+  font-family: 'Old Standard TT', serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: xx-large;
   text-align: center;
   /* line-height: 80px; */
   /* or 117% */
   color: #DFDFDF;
   margin: 20px auto;
+  padding: 5px;
 }
 
 .top-left-image {
   width: 80%;
   display: flex;
-  margin: 30px auto;
+  margin: 2% auto;
 }
 
-.top-left-image img{
+.top-left-image img {
   /* position: absolute; */
   width: 60px;
   height: 60px;
   /* left: 509.81px;
-  top: 1031.28px; */
+top: 1031.28px; */
   /* background: url(); */
   border-radius: 100px;
 }
@@ -105,20 +104,28 @@ body {
 .top-left-tagline {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
+  padding: 3px;
+}
+
+.carousel-item {
+  padding: 0 35px;
+}
+
+.slide {
+  margin: auto;
+  width: 250px;
 }
 
 .top-left-image-title {
   /* position: absolute; */
-  width: 100%;
   /* height: 35.7px; */
   /* left: 586.41px;
-  top: 1034.25px; */
+top: 1034.25px; */
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
-  padding-left: 15px;
+  font-size: 16px;
   /* line-height: 34px; */
   /* or 100% */
   color: #DFDFDF;
@@ -127,50 +134,67 @@ body {
 .top-left-image-tagline {
   /* position: absolute; */
   width: 100%;
-  height: 100%;
   /* height: 19.34px;
-  left: 586.41px;
-  top: 1069.95px; */
+left: 586.41px;
+top: 1069.95px; */
   font-family: Poppins;
   font-style: normal;
-  font-weight: 300;
-  font-size: 9.5px;
-  /* line-height: 15px; */
   /* or 100% */
   color: #DFDFDF;
   padding-left: 15px;
-  padding-bottom: 3px;
+  font-size: x-small;
+  font-weight: 800;
 }
-
-
 /* Responsive Section */
-@media(max-width: 1026px) {
-  .top-left-heading{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
+
+@media (min-width:900px) and (max-width:1300px) {
+  .slide {
+      margin: auto;
+      width: auto;
   }
 }
 
-@media only screen and (max-width:900px) and (min-width:490px) {
-  .top-left-container{
-    height: 300px;
-    padding: 0 18px;
+@media(max-width: 1026px) {
+  .top-left-heading {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
   }
-  .top-left-image{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 14px;
-    width: 100%;
-    margin: 0;
-  }
-  .top-left-image img{
-    margin: 0 auto;
-  }
+}
 
-  .top-left-tagline{
-    text-align: center;
-    margin: 30px auto;
+@media only screen and (max-width:1200px) {
+  .slide {
+      margin: auto;
+      width: auto;
+  }
+  .top-left-container {
+      height: 300px;
+      padding: 0 18px;
+  }
+  .top-left-image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 14px;
+      width: 100%;
+      margin: 0;
+  }
+  .top-left-image img {
+      margin: 0 auto;
+  }
+  .top-left-tagline {
+      text-align: center;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 900px) {
+  .col-lg-3 {
+      height: 100%;
+  }
+  .top-left-image-tagline {
+      font-size: small;
+  }
+  div.col-lg-3 {
+      padding: 0;
   }
 }
