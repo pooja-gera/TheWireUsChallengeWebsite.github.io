@@ -146,6 +146,7 @@
  }
  
  .slide {
+     margin: auto;
      width: 250px;
  }
  
@@ -185,6 +186,13 @@
  }
  /* Responsive Section */
  
+ @media (min-width:900px) and (max-width:1300px) {
+     .slide {
+         margin: auto;
+         width: auto;
+     }
+ }
+ 
  @media(max-width: 1026px) {
      .top-left-heading,
      .top-center-heading,
@@ -197,12 +205,10 @@
      }
  }
  
- @media only screen and (max-width:900px) and (min-width:490px) {
-     .carousel-item {
-         padding: 0 65px;
-     }
+ @media only screen and (max-width:1200px) {
      .slide {
-         margin: 0 20%;
+         margin: auto;
+         width: auto;
      }
      .top-left-container,
      .top-center-container,
@@ -244,73 +250,14 @@
      .col-lg-3 {
          height: 100%;
      }
-     .carousel-item {
-         padding: 0 35px;
-     }
-     .slide {
-         width: 200px;
-     }
      .top-left-image-tagline,
      .top-center-image-tagline,
      .top-right-image-tagline,
-     .bottom-left-image-tagline {
-         font-size: xx-small;
+     .bottom-left-image-tagline,
+     .bottom-center-image-tagline {
+         font-size: small;
      }
      div.col-lg-3 {
          padding: 0;
-     }
- }
- 
- @media (min-width: 335px) and (max-width: 970px) {
-     .col-lg-3 {
-         height: 100%;
-     }
-     .carousel-item {
-         padding: 0 35px;
-     }
-     .slide {
-         width: 250px;
-     }
- }
- 
- @media (min-width: 500PX) and (max-width: 800PX) {
-     .col-lg-3 {
-         height: 100%;
-     }
-     .carousel-item {
-         padding: 0 35px;
-     }
-     .slide {
-         width: 300px;
-     }
- }
- 
- @media (min-width: 800px) and (max-width: 1080px) {
-     .col-lg-3 {
-         height: 100%;
-     }
-     .carousel-item {
-         padding: 0 35px;
-     }
-     .slide {
-         width: 500px;
-     }
- }
- 
- @media (min-width: 900px) and (max-width: 1200px) {
-     .col-lg-3 {
-         height: 100%;
-     }
-     .carousel-item {
-         padding: 0 35px;
-     }
-     .top-left-image-tagline,
-     .top-center-image-tagline,
-     .top-right-image-tagline,
-     .bottom-left-image-tagline {
-         font-size: small;
-     }
-     .slide {
-         width: 200px;
      }
  }
