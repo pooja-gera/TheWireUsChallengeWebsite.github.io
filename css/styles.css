@@ -41,15 +41,105 @@
     border-radius: 50%;
 }
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:1024px) {
     .jumbotron {
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 50vh;
+        height: 40vh;
     }
     .arrow {
         position: absolute;
-        top: 40%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .arrow span {
+        width: 20px;
+        height: 20px;
+        border-bottom: 2.5px solid #ffffff;
+        border-right: 2.5px solid #ffffff;
+    }
+
+    .dot {
+        position: absolute;
+        top: 33%;
+        /*bottom: 7.4vw;
+        left: 69.2%;*/
+        height: 10vw;
+        width: 10vw;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .jumbotron {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+    .arrow {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .arrow span {
+        width: 20px;
+        height: 20px;
+        border-bottom: 2.5px solid #ffffff;
+        border-right: 2.5px solid #ffffff;
+    }
+
+    .dot {
+        position: absolute;
+        top: 33%;
+        /*bottom: 7.4vw;
+        left: 69.2%;*/
+        height: 10vw;
+        width: 10vw;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .jumbotron {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+    .arrow {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .arrow span {
+        width: 20px;
+        height: 20px;
+        border-bottom: 2.5px solid #ffffff;
+        border-right: 2.5px solid #ffffff;
+    }
+
+    .dot {
+        position: absolute;
+        top: 33%;
+        /*bottom: 7.4vw;
+        left: 69.2%;*/
+        height: 10vw;
+        width: 10vw;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .jumbotron {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+    .arrow {
+        position: absolute;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
