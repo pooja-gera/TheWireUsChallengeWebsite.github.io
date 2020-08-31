@@ -6,69 +6,11 @@
 
 /*Screen 1 CSS*/
 
-
 .jumbotron {
     background-image: url(../assets/head.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
-}
-
-.arrow {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.arrow span {
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid #ffffff;
-    border-right: 5px solid #ffffff;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 2s infinite;
-}
-
-.dot {
-    position: absolute;
-    bottom: 7.4vw;
-    left: 69.2%;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-@media only screen and (max-width:700px) {
-    .jumbotron {
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        height: 50vh;
-    }
-    .arrow {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .arrow span {
-        width: 20px;
-        height: 20px;
-        border-bottom: 2.5px solid #ffffff;
-        border-right: 2.5px solid #ffffff;
-    }
-
-    .dot {
-        position: absolute;
-        top: 33%;
-        /*bottom: 7.4vw;
-        left: 69.2%;*/
-        height: 10vw;
-        width: 10vw;
-        border-radius: 50%;
-    }
 }
 
 .head1 {
@@ -98,6 +40,24 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
+.arrow {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #ffffff;
+    border-right: 5px solid #ffffff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
 .arrow span:nth-child(2) {
     animation-delay: -0.2s;
 }
@@ -121,12 +81,31 @@
 }
 
 .dot {
-    position: absolute;
-    bottom: 7.4vw;
-    left: 69.2%;
+    bottom: 7vw;
+    left: 69%;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+
+@media only screen and (max-width:700px) {
+    .jumbotron {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+    .arrow {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .arrow span {
+        width: 20px;
+        height: 20px;
+        border-bottom: 2.5px solid #ffffff;
+        border-right: 2.5px solid #ffffff;
+    }
 }
 
 
@@ -141,11 +120,13 @@
 
 .singupforchallengetitle {
     padding: 15%;
-    padding-top: 5%;
+    padding-top: 10%;
+    padding-right: 0;
     color: #FFFFFF;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
+    margin: 0 8%;
 }
 
 .number {
@@ -189,12 +170,16 @@
 }
 
 .nameoftopic {
-    padding: 10%;
     font-family: TT Norms;
     font-style: normal;
     font-weight: bold;
     color: #D6D6D6;
     font-size: 40px;
+}
+
+.nameoftopic>img {
+    width: 100%;
+    height: auto;
 }
 
 .maintopic {
@@ -238,17 +223,42 @@
     .nameoftopic {
         font-size: xx-large;
     }
-}
-
-@media (min-width:500px) and (max-width:900px) {
-    .nameoftopic {
-        font-size: xx-large;
+    .carouseltopics {
+        margin-bottom: 15%;
     }
     .competetivep_card,
     .design_card,
     .webdev_card,
     .ml_card {
         margin: 0 20%;
+        height: 550px;
+    }
+}
+
+@media (min-width:500px) and (max-width:900px) {
+    .carouseltopics {
+        margin-bottom: 20%;
+    }
+    .nameoftopic {
+        font-size: 30px;
+    }
+    .competetivep_card,
+    .design_card,
+    .webdev_card,
+    .ml_card {
+        margin: 0 20%;
+        height: 500px;
+    }
+    .nameoftopic>span {
+        font-size: 65px;
+    }
+    .nameoftopic>img {
+        width: 55%;
+        height: auto;
+    }
+    .logo {
+        width: 50%;
+        padding: 10% 0%;
     }
 }
 
@@ -270,6 +280,7 @@
     .webdev_card,
     .ml_card {
         margin: 0 10%;
+        height: 450px;
     }
     .sinupdetails1,
     .sinupdetails2,
@@ -280,6 +291,23 @@
         font-size: 25px;
         line-height: 35px;
         padding-bottom: 2%;
+    }
+    .logo {
+        width: 40%;
+        padding: 10% 0%;
+    }
+    .nameoftopic>img {
+        width: 55%;
+        height: auto;
+    }
+    .nameoftopic>span {
+        font-size: 35px;
+    }
+}
+
+@media (min-width:800px) and (max-width:990px) {
+    .nameoftopic>span {
+        font-size: 65px;
     }
 }
 
@@ -368,7 +396,7 @@
 }
 
 .meetus {
-    margin: 0 10%;
+    /* margin: 0 10%; */
     margin-top: 25px;
     margin-right: 0;
     border-radius: 25px;
