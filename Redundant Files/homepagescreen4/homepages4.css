@@ -1,0 +1,150 @@
+  /* Make the image fully responsive */
+  
+  .slide {
+      margin: auto;
+      margin-bottom: 2%;
+  }
+  
+  .meetus {
+      margin: 0 10%;
+      margin-top: 25px;
+      margin-right: 0;
+      border-radius: 25px;
+      background-color: red;
+  }
+  
+  .meetushead {
+      margin: auto;
+      font-size: large;
+      color: #fff;
+      padding: 5%;
+      padding-bottom: 0;
+  }
+  
+  .followus {
+      border-radius: 25px;
+      background: #27272F;
+      margin: 0 10%;
+      margin-top: 25px;
+  }
+  /* */
+  
+  .d-block {
+      width: 30%;
+      height: 125px;
+      border-radius: 50%;
+      margin: 50px auto;
+      margin-bottom: 15px;
+  }
+  
+  .followustitle {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      color: #FFF7ED;
+      text-align: center;
+      margin: auto;
+  }
+  
+  .name {
+      font-size: x-large;
+      font-family: Poppins;
+      font-style: normal;
+  }
+  
+  .creator {
+      background-color: blue;
+      margin: 0 10%;
+      margin-top: 25px;
+      border-radius: 25px;
+  }
+  
+  .position {
+      font-size: large;
+      font-family: Poppins;
+      font-style: normal;
+  }
+  
+  .team {
+      animation-name: team;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+  }
+  
+  .creatoritem {
+      animation-name: creatoritem;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+  }
+  
+  .followus {
+      padding: 10%;
+  }
+  
+  .followustitle {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: xx-large;
+  }
+  
+  .socialimage {
+      max-width: 65px;
+  }
+  
+  @keyframes team {
+      0% {
+          transform: translateY(200px);
+          opacity: 0;
+      }
+      25% {
+          transform: translateY(200px);
+          opacity: 0.6;
+      }
+      100% {
+          transform: translateY(0px);
+          opacity: 1;
+      }
+  }
+  
+  @keyframes creatoritem {
+      0% {
+          transform: translateY(-200px);
+          opacity: 0;
+      }
+      25% {
+          transform: translateY(-200px);
+          opacity: 0.6;
+      }
+      100% {
+          transform: translateY(0px);
+          opacity: 1;
+      }
+  }
+  
+  @media only screen and (max-width:900px) {
+      .meetus {
+          margin: 0 10%;
+          margin-top: 25px;
+          border-radius: 25px;
+          background-color: red;
+      }
+      .socialimage {
+          max-width: 45px;
+          max-height: 105px;
+      }
+  }
+  
+  @media only screen and (max-width:500px) {
+      .d-block {
+          width: 40%;
+          height: 90px;
+      }
+      .socialimage {
+          max-width: 25px;
+          max-height: 105px;
+      }
+      .followustitle {
+          font-size: large;
+      }
+  }
