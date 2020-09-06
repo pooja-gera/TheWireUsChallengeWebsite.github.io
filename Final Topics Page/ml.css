@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Poppins;
 }
 
 body {
@@ -90,7 +91,7 @@ body {
     height: fit-content;
     /* left: 509.81px;
  top: 818.58px; */
-    font-family: 'Old Standard TT', serif;
+    /*font-family: 'Old Standard TT', serif;*/
     font-style: normal;
     font-weight: bold;
     font-size: xx-large;
