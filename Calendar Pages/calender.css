@@ -1,3 +1,24 @@
+.disabled{
+    cursor: not-allowed;
+    color: #FFFFFF;
+    
+    text-decoration: none;
+}
+.disabled:hover{
+    color:#FFFFFF;
+        
+    text-decoration: none;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color:#FFFFFF;
+    text-decoration: none;
+}
 .rectangle-containing-calendar {
     background: rgba(255, 255, 255, 0.95);
     box-shadow: -70px -71px 83px -28px rgba(0, 0, 0, 0.2);
@@ -14,7 +35,7 @@ body {
     height: 4000px;
     left: -76px;
     top: -371px; */
-    background: url(alex-pflaum-sQzhQLdYaP4-unsplash.png);
+    background: url(WireUs-CurrentView2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,7 +58,7 @@ body {
 }
 
 .topic-display-container {
-    background: #828fb6;
+    background: #6B50AD;
     border-radius: 30px;
     padding: 2%;
 }
@@ -79,7 +100,7 @@ body {
 }
 
 .background-panda {
-    background: url(pand.png);
+    background: url(panda1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -106,11 +127,12 @@ body {
     font-weight: normal;
     font-size: 15px;
     color: #252019;
-    background: #768FC1;
+    background: #6B50AD;
     border-radius: 105px;
     margin: 1%;
     padding: 5px;
     text-align: center;
+    text-decoration: none;
 }
 
 .number {
@@ -134,12 +156,13 @@ body {
 .numberselected>a {
     color: rgb(0, 0, 0);
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .number>a:hover,
 .numberselected>a:hover {
     opacity: 0.7;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -156,6 +179,7 @@ body {
     div.numberselected {
         width: 11%;
         padding: 2px;
+        
     }
 }
 
@@ -165,5 +189,6 @@ body {
     div.numberselected {
         width: 11%;
         padding: 1px;
+        
     }
 }
