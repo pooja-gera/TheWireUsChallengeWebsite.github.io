@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calender</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="calender.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+
+<body style=" background-color: #192131;">
+    <!-- <div class="container" id="myGroup">
+        <p>
+        </p>
+    </div> -->
+    <div class="container fluid" id="myGroup">
+        <div class="rectangle-containing-calendar">
+
+
+            <div class="row">
+                <div class="col leftcol">
+
+                    <topic class="heading ">CSS Tricks</topic>
+                    <hr class="underline ">
+
+                    <div id="daysofchallenge" class="carousel slide" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="padding:5%">
+                                <div class="row " style="padding: 5px;">
+                                    <div class="col-sm number  " id="first" data-toggle="collapse" data-target="#day1" aria-expanded="false" aria-controls="day1"><a class="disabled"href="CompetitiveProgramming/01_CompetitveProgramming" download>1</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day2" aria-expanded="false" aria-controls="day2"> <a class="disabled"href="CompetitiveProgramming/02_CompetitiveProgramming"download>2 </a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day3" aria-expanded="false" aria-controls="day3"><a class="disabled"href="CompetitiveProgramming/03_CompetitiveProgramming"download>3</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day4" aria-expanded="false" aria-controls="day4"><a class="disabled"href=""download>4</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day5" aria-expanded="false" aria-controls="day5"><a class="disabled"href=""download>5</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day6" aria-expanded="false" aria-controls="day6"><a class="disabled"href=""download>6</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day7" aria-expanded="false" aria-controls="day7"><a class="disabled"href=""download>7</a></div>
+                                </div>
+
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day8" aria-expanded="false" aria-controls="day8"><a class="disabled"href=""download>8</a></div>
+                                    <div class=" col-sm number" data-toggle="collapse" data-target="#day9" aria-expanded="false" aria-controls="day9"><a class="disabled"href=""download>9</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day10" aria-expanded="false" aria-controls="day10"><a class="disabled"href=""download>10</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day11" aria-expanded="false" aria-controls="day11"><a class="disabled"href=""download>11</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day12" aria-expanded="false" aria-controls="day12"><a class="disabled"href=""download>12</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day13" aria-expanded="false" aria-controls="day13"><a class="disabled"href=""download >13</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day14" aria-expanded="false" aria-controls="day14"><a class="disabled"href=""download>14</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day15" aria-expanded="false" aria-controls="day15"><a class="disabled"href=""download>15</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day16" aria-expanded="false" aria-controls="day16"><a class="disabled"href=""download>16</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day17" aria-expanded="false" aria-controls="day17"><a class="disabled"href=""download>17</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day18" aria-expanded="false" aria-controls="day18"><a class="disabled"href=""download>18</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day19" aria-expanded="false" aria-controls="day19"><a class="disabled"href=""download>19</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day20" aria-expanded="false" aria-controls="day20"><a class="disabled"href=""download>20</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day21" aria-expanded="false" aria-controls="day22"><a class="disabled"href=""download>21</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day22" aria-expanded="false" aria-controls="day22"><a class="disabled"href=""download>22</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day23" aria-expanded="false" aria-controls="day23"><a class="disabled"href=""download>23</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day24" aria-expanded="false" aria-controls="day24"><a class="disabled"href=""download>24</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day25" aria-expanded="false" aria-controls="day25"><a class="disabled"href=""download>25</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day26" aria-expanded="false" aria-controls="day26"><a class="disabled"href=""download>26</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day27" aria-expanded="false" aria-controls="day27"><a class="disabled"href=""download>27</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day28" aria-expanded="false" aria-controls="day28"><a class="disabled"href=""download>28</a></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item " style="padding:5%">
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day29" aria-expanded="false" aria-controls="day29"><a class="disabled"href=""download>29</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day30" aria-expanded="false" aria-controls="day30"><a class="disabled"href=""download>30</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day31" aria-expanded="false" aria-controls="day31"><a class="disabled"href=""download>31</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day32" aria-expanded="false" aria-controls="day32"><a class="disabled"href=""download>32</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day33" aria-expanded="false" aria-controls="day33"><a class="disabled"href=""download>33</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day34" aria-expanded="false" aria-controls="day34"><a class="disabled"href=""download>34</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day35" aria-expanded="false" aria-controls="day35"><a class="disabled"href=""download>35</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day36" aria-expanded="false" aria-controls="day36"><a class="disabled"href=""download>36</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day37" aria-expanded="false" aria-controls="day37"><a class="disabled"href=""download>37</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day38" aria-expanded="false" aria-controls="day38"><a class="disabled"href=""download>38</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day39" aria-expanded="false" aria-controls="day39"><a class="disabled"href=""download>39</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day40" aria-expanded="false" aria-controls="day40"><a class="disabled"href=""download>40</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day41" aria-expanded="false" aria-controls="day41"><a class="disabled"href=""download>41</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day42" aria-expanded="false" aria-controls="day42"><a class="disabled"href=""download>42</a></div>
+                                </div>
+                                <div class="row " style="padding : 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day43" aria-expanded="false" aria-controls="day43"><a class="disabled"href=""download>43</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day44" aria-expanded="false" aria-controls="day44"><a class="disabled"href=""download>44</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day45" aria-expanded="false" aria-controls="day45"><a class="disabled"href=""download>45</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day46" aria-expanded="false" aria-controls="day46"><a class="disabled"href=""download>46</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day47" aria-expanded="false" aria-controls="day47"><a class="disabled"href=""download>47</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day48" aria-expanded="false" aria-controls="day48"><a class="disabled"href=""download>48</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day49" aria-expanded="false" aria-controls="day49"><a class="disabled"href=""download>49</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day50" aria-expanded="false" aria-controls="day50"><a class="disabled"href=""download>50</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day51" aria-expanded="false" aria-controls="day51"><a class="disabled"href=""download>51</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day52" aria-expanded="false" aria-controls="day52"><a class="disabled"href=""download>52</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day53" aria-expanded="false" aria-controls="day53"><a class="disabled"href=""download>53</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day54" aria-expanded="false" aria-controls="day54"><a class="disabled"href=""download>54</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day55" aria-expanded="false" aria-controls="day55"><a class="disabled"href=""download>55</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day56" aria-expanded="false" aria-controls="day56"><a class="disabled"href=""download>56</a></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="padding:5%">
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day57" aria-expanded="false" aria-controls="day57"><a class="disabled"href=""download>57</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day58" aria-expanded="false" aria-controls="day58"><a class="disabled"href=""download>58</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day59" aria-expanded="false" aria-controls="day59"><a class="disabled"href=""download>59</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day60" aria-expanded="false" aria-controls="day60"><a class="disabled"href=""download>60</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day61" aria-expanded="false" aria-controls="day61"><a class="disabled"href=""download>61</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day62" aria-expanded="false" aria-controls="day62"><a class="disabled"href=""download>62</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day63" aria-expanded="false" aria-controls="day63"><a class="disabled"href=""download>63</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day64" aria-expanded="false" aria-controls="day64"><a class="disabled"href=""download>64</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day65" aria-expanded="false" aria-controls="day65"><a class="disabled"href=""download>65</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day66" aria-expanded="false" aria-controls="day66"><a class="disabled"href=""download>66</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day67" aria-expanded="false" aria-controls="day67"><a class="disabled"href=""download>67</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day68" aria-expanded="false" aria-controls="day68"><a class="disabled"href=""download>68</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day69" aria-expanded="false" aria-controls="day69"><a class="disabled"href=""download>69</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day70" aria-expanded="false" aria-controls="day70"><a class="disabled"href=""download>70</a></div>
+                                </div>
+                                <div class="row " style="padding : 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day71" aria-expanded="false" aria-controls="day71"><a class="disabled"href=""download>71</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day72" aria-expanded="false" aria-controls="day72"><a class="disabled"href=""download>72</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day73" aria-expanded="false" aria-controls="day73"><a class="disabled"href=""download>73</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day74" aria-expanded="false" aria-controls="day74"><a class="disabled"href=""download>74</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day75" aria-expanded="false" aria-controls="day75"><a class="disabled"href=""download>75</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day76" aria-expanded="false" aria-controls="day76"><a class="disabled"href=""download>76</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day77" aria-expanded="false" aria-controls="day77"><a class="disabled"href=""download>77</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day78" aria-expanded="false" aria-controls="day78"><a class="disabled"href=""download>78</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day79" aria-expanded="false" aria-controls="day79"><a class="disabled"href=""download>79</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day80" aria-expanded="false" aria-controls="day80"><a class="disabled"href=""download>80</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day81" aria-expanded="false" aria-controls="day81"><a class="disabled"href=""download>81</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day82" aria-expanded="false" aria-controls="day82"><a class="disabled"href=""download>82</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day83" aria-expanded="false" aria-controls="day83"><a class="disabled"href=""download>83</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day84" aria-expanded="false" aria-controls="day84"><a class="disabled"href=""download>84</a></div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" style="padding:5%">
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day85" aria-expanded="false" aria-controls="day85"><a class="disabled"href=""download>85</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day86" aria-expanded="false" aria-controls="day86"><a class="disabled"href=""download>86</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day86" aria-expanded="false" aria-controls="day86"><a class="disabled"href=""download>86</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day87" aria-expanded="false" aria-controls="day87"><a class="disabled"href=""download>87</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day88" aria-expanded="false" aria-controls="day88"><a class="disabled"href=""download>88</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day89" aria-expanded="false" aria-controls="day89"><a class="disabled"href=""download>89</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day90" aria-expanded="false" aria-controls="day90"><a class="disabled"href=""download>90</a></div>
+                                </div>
+                                <div class="row " style="padding: 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day91" aria-expanded="false" aria-controls="day91"><a class="disabled"href=""download>91</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day92" aria-expanded="false" aria-controls="day92"><a class="disabled"href=""download>92</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day93" aria-expanded="false" aria-controls="day93"><a class="disabled"href=""download>93</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day94" aria-expanded="false" aria-controls="day94"><a class="disabled"href=""download>94</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day95" aria-expanded="false" aria-controls="day95"><a class="disabled"href=""download>95</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day96" aria-expanded="false" aria-controls="day96"><a class="disabled"href=""download>96</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day97" aria-expanded="false" aria-controls="day97"><a class="disabled"href=""download>97</a></div>
+                                </div>
+                                <div class="row " style="padding : 5px; ">
+                                    <div class="col-sm number " data-toggle="collapse" data-target="#day98" aria-expanded="false" aria-controls="day98"><a class="disabled"href=""download>98</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day99" aria-expanded="false" aria-controls="day99"><a class="disabled"href=""download>99</a></div>
+                                    <div class=" col-sm number " data-toggle="collapse" data-target="#day100" aria-expanded="false" aria-controls="day100"><a class="disabled"href=""download>100</a></div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col"> <a href="#daysofchallenge" role="button" data-slide="prev">&#8656; Previous
+                        </a></div>
+                            <div class="col" style="text-align: right;"> <a href="#daysofchallenge" role="button" data-slide="next">Next  &#8658;
+                        </a></div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col rightcol ">
+
+                    <div class="topic-display-container ">
+                        <div class="background-panda ">
+                            <div class="topic-heading-challenge ">
+                                <div class=" collapse show" id="day1" data-parent="#myGroup">
+                                  <a class="disabled"href=""download>  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2"> To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day2" data-parent="#myGroup">
+                                  <a class="disabled"href=""download>  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day3" data-parent="#myGroup">
+                                  <a class="disabled"href=""download > <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day4" data-parent="#myGroup">
+                                    <a class="disabled"href=""download > <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day5" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day6" data-parent="#myGroup">
+                                    <a class="disabled"href=""download > <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day7" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day8" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day9" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day10" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day11" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day12" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day13" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >    <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day14" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day15" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day16" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day17" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day18" data-parent="#myGroup">
+                                    <a class="disabled"href=""download > <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day19" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day20" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day21" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day22" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day23" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day24" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+
+                                </div>
+                                <div class="collapse " id="day25" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+
+                                </div>
+                                <div class="collapse " id="day26" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day27" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >    <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+
+                                <div class="collapse " id="day28" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                
+                                </div>
+                                <div class="collapse " id="day29" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day30" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                </div>
+                                <div class="collapse " id="day31" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                    
+                                </div>
+                                <div class="collapse " id="day32" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day33" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                 </div>
+                                <div class="collapse " id="day34" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              
+                                   </div>
+                                <div class="collapse " id="day35" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                
+                                </div>
+                                <div class="collapse " id="day36" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                 </div>
+                                <div class="collapse " id="day37" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                 </div>
+                                <div class="collapse " id="day38" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day39" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day40" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day41" data-parent="#myGroup">
+                                    <a class="disabled"href=""download > <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day42" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day43" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day44" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day45" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day46" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >    <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day47" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here</div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day48" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day49" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day50" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day51" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day52" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day53" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                <div class="collapse " id="day54" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day55" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day56" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day57" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day58" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day59" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day60" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day61" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day62" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day63" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day64" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day65" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day66" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                 </div>
+                                <div class="collapse " id="day67" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day68" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day69" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day70" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day71" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day72" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day73" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day74" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day75" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day76" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day77" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day78" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day79" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day80" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day81" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day82" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >    <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day83" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day84" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >    <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day85" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day86" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day87" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day88" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div>
+                               </div>
+                                <div class="collapse " id="day89" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day90" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day91" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day92" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day93" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day94" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day95" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day96" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day97" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+                                <div class="collapse " id="day98" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                                </div>
+                                <div class="collapse " id="day99" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >  <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                              </div>
+                                <div class="collapse " id="day100" data-parent="#myGroup">
+                                    <a class="disabled"href=""download >   <div class=" heading1">Click Here </div>
+                                    <div class=" heading2">To Download Today's Challenge</div></a>
+                               </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+                $(document).ready(function() {
+                    $('.number>a').click(function() {
+                        $('selector.active').removeClass("active");
+                        $(this).addClass("active");
+                        $('this').addClass("numberselected");
+                    });
+                });
+            </script> -->
+    <script>
+        $('#first').addClass('numberselected');
+        $('.number').click(function(e) {
+
+            $('.numberselected').removeClass('numberselected');
+
+            var $this = $(this);
+            $this.addClass('numberselected');
+            e.preventDefault();
+        });
+    </script>
+</body>
+
+</html>
