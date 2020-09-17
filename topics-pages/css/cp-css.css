@@ -40,7 +40,7 @@
  }
  
  #design-card {
-     width: 50%;
+     /* width: 50%; */
      /* height: 250px; */
      margin: 0 auto;
      background: #27272F;
@@ -93,6 +93,14 @@
      line-height: 35px;
  }
  
+ .box-head a {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 10px;
+ }
+ 
  .nameofcm {
      font-family: Poppins;
      font-style: normal;
@@ -118,6 +126,10 @@
      .box-head {
          font-size: 150%;
          line-height: 25px;
+     }
+     .box-head a {
+         font-size: 12px;
+         line-height: 5px;
      }
      .nameofcm {
          font-size: 125%;
@@ -177,6 +189,10 @@
      .box-head {
          font-size: 150%;
          line-height: 25px;
+     }
+     .box-head a {
+         font-size: 12px;
+         line-height: 5px;
      }
      .nameofcm {
          font-size: 125%;
