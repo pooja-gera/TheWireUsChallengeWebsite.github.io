@@ -1,0 +1,148 @@
+ .signupforc {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     line-height: 125px;
+     /* or 100% */
+     text-align: center;
+     font-size: 65px;
+     color: #3D3434;
+ }
+ 
+ .beginchallenge {
+     background: #1D1D41;
+     box-shadow: 0px 3.29757px 3.29757px rgba(0, 0, 0, 0.25);
+     border-radius: 173.122px;
+     padding: 1% 10%;
+     color: #FDFDFC;
+     font-family: TT Norms;
+     font-style: normal;
+     font-weight: normal;
+     margin-top: 10%;
+ }
+ 
+ .recbox-topics {
+     background: #F9F5F1;
+ }
+ /* .recbox-topics row {
+     margin: 2% 5%;
+     margin-left: 15%;
+ } */
+ 
+ div.logo {
+     background: #1D1D41;
+     border-radius: 50%;
+     margin: auto;
+     margin: 10% 5%;
+     text-align: center;
+     padding: 7% 0;
+ }
+ 
+ .text {
+     margin: 10% 2%;
+     padding: 0 5%;
+ }
+ 
+ .topicimg {
+     margin: 0 auto;
+     width: 50%;
+     height: auto;
+ }
+ 
+ .webdev,
+ .machinelearning,
+ .design,
+ .competitive_p {
+     min-height: 95%;
+     /* min-width: 100%; */
+     margin: 2% 4%;
+     background: #E2E2E2;
+     border-radius: 25px;
+ }
+ 
+ .text-head {
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: bold;
+     font-size: xx-large;
+     line-height: 20px;
+ }
+ 
+ .text>p {
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 500;
+ }
+ 
+ .d-lg-none .webdev,
+ .d-lg-none .machinelearning,
+ .d-lg-none .design,
+ .d-lg-none .competitive_p {
+     /* width: 95%; */
+     height: 250px;
+ }
+ 
+ .d-lg-none .carousel-item {
+     transition-duration: 1s;
+     transition-timing-function: cubic-bezier(1, 5, 9, 6);
+ }
+ 
+ @media (min-width: 755px) and (max-width: 1080px) {
+     .d-lg-none .webdev,
+     .d-lg-none .machinelearning,
+     .d-lg-none .design,
+     .d-lg-none .competitive_p {
+         /* width: 95%; */
+         height: 340px;
+         margin: 2% 3%;
+         cursor: pointer;
+     }
+ }
+ 
+ @media (min-width: 555px) and (max-width: 1080px) {
+     .topicimg {
+         margin: 0 auto;
+         width: 45% !important;
+         height: auto;
+     }
+ }
+ 
+ @media (max-width: 580px) {
+     .beginchallenge {
+         padding: 1% 8%;
+         color: #FDFDFC;
+     }
+     .d-lg-none .col-sm {
+         width: 45%;
+     }
+     .topicimg {
+         margin: 0 auto;
+         width: 45% !important;
+         height: auto;
+     }
+     div.text {
+         margin: 5% 6%;
+         padding: 0 !important;
+         font-size: xx-small;
+     }
+     span.text-head {
+         font-size: large;
+         line-height: 20px;
+     }
+     .d-lg-none div.logo {
+         padding: 7% 1px;
+         width: 30%;
+     }
+     .d-lg-none .webdev,
+     .d-lg-none .machinelearning,
+     .d-lg-none .design,
+     .d-lg-none .competitive_p {
+         /* width: 95%; */
+         height: 200px;
+         margin: 2% 3%;
+     }
+     .signupforc {
+         font-size: 45px;
+         line-height: 40px;
+     }
+ }

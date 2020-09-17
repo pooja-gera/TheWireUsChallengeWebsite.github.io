@@ -1,0 +1,219 @@
+/*Screen 1 CSS*/
+
+a.activenav {
+    color: rgb(50, 45, 51) !important;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.firstsection {
+    background: linear-gradient(0deg, #8390BE, #8390BE);
+    /* height: 120vh; */
+}
+
+.heading-sec {
+    background: url(../assets/top-back.png);
+    background-size: 90% auto;
+    border-radius: 5px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    margin: 0 10%;
+    height: 98vh;
+}
+
+.wireuslogo {
+    height: 20px;
+}
+
+.nav-link a {
+    font-family: TT Norms !important;
+    font-style: normal;
+    font-weight: normal;
+    /* color: #D5D5D5 !important; */
+}
+
+.nav-link {
+    color: #D5D5D5 !important;
+}
+
+.nav-link:hover {
+    color: #D5D5D5 !important;
+    background-color: inherit !important;
+}
+
+.head {
+    padding-top: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    color: #0E131F;
+    /* margin: 0 auto; */
+    font-size: 95px;
+}
+
+.sub-head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    width: 65%;
+    padding-top: 2%;
+}
+
+.learnmore {
+    background: #1D1D41;
+    box-shadow: 0px 3.29757px 3.29757px rgba(0, 0, 0, 0.25);
+    border-radius: 173.122px;
+    padding: 1% 4%;
+    color: #FDFDFC;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 10%;
+}
+
+.downarrow {
+    font-size: 36px;
+    margin: 0 45%;
+    position: relative;
+    top: 100%;
+}
+
+.upperclass {
+    margin: 0 auto;
+}
+
+@media (max-width:1300px) {
+    .heading-sec {
+        max-height: 75vh;
+    }
+    .head {
+        font-size: 60px;
+    }
+    .sub-head {
+        width: 55%;
+        line-height: 30px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:840px) {
+    .nav-link {
+        padding: 10px !important;
+        font-size: small !important;
+    }
+    .sub-head {
+        line-height: 20px;
+        font-size: 15 px;
+        width: 65%;
+    }
+    .heading-sec {
+        margin: 0 5%;
+        height: 95vh;
+    }
+    .learnmore {
+        display: none;
+    }
+    .head {
+        font-size: 45px;
+        line-height: 90%;
+    }
+    .upperclass {
+        margin: 0 5%;
+    }
+    .sub-head {
+        line-height: 30px;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:550px) and (max-width:650px) {
+    .heading-sec {
+        max-height: 75vh;
+    }
+    .head {
+        font-size: 40px;
+    }
+    .sub-head {
+        width: 75%;
+        line-height: 30px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:550px) {
+    .nav-link {
+        font-size: xx-small !important;
+    }
+    .wireuslogo {
+        margin: 15px;
+    }
+    .heading-sec {
+        background: url(../assets/top-back2.png);
+        /* padding: 0 2%; */
+        background-size: 83% auto;
+        border-radius: 35px;
+        background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        margin: 0;
+        height: 75vh;
+    }
+    .head {
+        font-size: 50px;
+        text-align: center;
+        line-height: 90%;
+    }
+    .sub-head {
+        line-height: 24px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .nav-link {
+        font-size: x-small;
+    }
+    .wireuslogo {
+        margin: 0;
+    }
+    .downarrow {
+        display: none;
+    }
+}
+
+@media (min-width:300px) and (max-width:420px) {
+    .head {
+        font-size: 45px;
+        text-align: center;
+    }
+    .sub-head {
+        font-size: 15px;
+        width: 75%;
+        margin: 0 auto;
+    }
+    /* .heading-sec {
+                max-height: 65vh;
+            } */
+}
+
+@media (max-width:350px) {
+    .head {
+        font-size: 35px;
+        text-align: center;
+    }
+    .nav-link {
+        font-size: xx-small;
+    }
+    .sub-head {
+        font-size: 15px;
+        width: 85%;
+        margin: 0 auto;
+    }
+}

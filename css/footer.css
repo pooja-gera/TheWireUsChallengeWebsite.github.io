@@ -1,0 +1,25 @@
+    .page-footer {
+        flex-shrink: none;
+        background: #E2E2E2;
+    }
+    
+    .madewith {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .by {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        color: black;
+        font-size: 27px;
+    }
+    
+    @media (max-width:550px) {
+        .page-footer {
+            display: none;
+        }
+    }
