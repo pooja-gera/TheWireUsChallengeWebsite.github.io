@@ -47,6 +47,7 @@
      margin: 0 auto;
      width: 50%;
      height: auto;
+     padding: 2% 1%;
  }
  
  .webdev,
@@ -144,5 +145,25 @@
      .signupforc {
          font-size: 45px;
          line-height: 40px;
+     }
+ }
+ 
+ .cpimg {
+     /* margin: 0 auto; */
+     width: 65%;
+     height: auto;
+     padding: 10% 8%;
+ }
+ 
+ @media (min-width:350px) and (max-width: 1080px) {
+     .cpimg {
+         width: 65%;
+         padding: 12% 0;
+     }
+ }
+ 
+ @media (max-width: 1080px) {
+     .cpimg {
+         width: 55%;
      }
  }
