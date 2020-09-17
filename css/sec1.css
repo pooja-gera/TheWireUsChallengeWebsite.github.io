@@ -48,6 +48,11 @@ a.activenav {
     background-color: inherit !important;
 }
 
+.nav-link a:visited {
+    color: #D5D5D5 !important;
+    background-color: inherit !important;
+}
+
 .head {
     padding-top: 15px;
     font-family: Poppins;
