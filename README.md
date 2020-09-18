@@ -10,7 +10,7 @@ Add the link to the respective page:<br>
 2.After the line number 200(approx) you will find something like this:<br>
 Select div with id="day for which you are updating"<br>
 ```html
-<pre>
+
 <div class="collapse " id="{{day_your_are_updating}}" data-parent="#myGroup">
     <div **class="disabled"**> Remove this class and replace it with "<div>"
         **add image path in "a" tag href**
@@ -20,5 +20,5 @@ Select div with id="day for which you are updating"<br>
         </a>
     </div>
 </div>
-</pre>
+
 ```
