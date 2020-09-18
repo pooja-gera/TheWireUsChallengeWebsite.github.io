@@ -12,7 +12,6 @@ a.activenav {
 
 .firstsection {
     background: linear-gradient(0deg, #8390BE, #8390BE);
-    /* height: 120vh; */
 }
 
 .heading-sec {
@@ -110,6 +109,15 @@ a.activenav {
 }
 
 @media (max-width:840px) {
+    .downarrow {
+        font-size: 36px;
+        margin: 0 45%;
+        position: relative;
+        top: 65px;
+    }
+    .firstsection {
+        height: 100vh;
+    }
     .nav-link {
         padding: 10px !important;
         font-size: small !important;

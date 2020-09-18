@@ -7,7 +7,7 @@
 .backcolor3 {
     background: #1D1D41;
     background-size: cover;
-    height: auto;
+    min-height: 100vh;
 }
 
 .head3 {
@@ -22,34 +22,70 @@
 
 .box1 {
     width: 80%;
-    height: 100%;
+    min-height: 100vh;
     background: #25284D;
     border-radius: 30px 30px 0px 0px;
+    padding: 10%;
+    padding-top: 5%;
 }
 
 .box2 {
     /* margin: 0 auto;
     width: 80%;
     height: auto; */
-    background: rgba(122, 122, 122, 0.2);
+    /* background: rgba(122, 122, 122, 0.2); */
     border-radius: 30px;
+    height: 100%;
+    padding: 5%;
+}
+
+.box2 iframe {
+    padding: 0 !important;
 }
 
 @media (max-width:550px) {
     .head3 {
-        font-size: 6vw;
+        font-size: 30px;
+        text-align: center;
         padding: 5%;
     }
     .backcolor3 {
-        height: auto;
+        height: 100vh;
     }
-    .box1,
-    .box2 {
+    .box1 {
+        width: 100%;
         padding: 5%;
         padding-bottom: 0;
         margin-top: 5%;
     }
+    .box2 {
+        margin-top: 12%;
+    }
+    .box2 iframe {
+        padding: 0 !important;
+    }
+}
+
+@media (min-width:550px) and (max-width:780px) {
+    .backcolor3 {
+        height: 100vh;
+    }
     .box1 {
         width: 100%;
+        padding: 5%;
+        padding-bottom: 0;
+        margin-top: 5%;
+    }
+    .box2 {
+        margin-top: 10%;
+        /* margin: 35% auto; */
+    }
+    .box2 iframe {
+        padding: 0 !important;
+    }
+    .head3 {
+        font-size: 40px;
+        text-align: center;
+        padding: 5%;
     }
 }

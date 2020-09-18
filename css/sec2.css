@@ -3,6 +3,11 @@
      src: url("../fonts/TT-Norms/TTNorms-Regular.otf");
  }
  
+ .mobile-carousel-topics {
+     height: 90vh;
+     padding: 15% 0 !important;
+ }
+ 
  .signupforc {
      font-family: Poppins;
      font-style: normal;
@@ -64,6 +69,7 @@
      margin: 2% 4%;
      background: #E2E2E2;
      border-radius: 25px;
+     box-shadow: 5px 5px 3.29757px 3.29757px rgba(0, 0, 0, 0.25);
  }
  
  .text-head {
@@ -133,7 +139,19 @@
      }
  }
  
+ @media (max-width:1080px) {
+     .d-lg-none div.logo {
+         padding: 7% 1px !important;
+         width: 30%;
+         margin-left: 7%;
+     }
+ }
+ 
  @media (max-width: 580px) {
+     .mobile-carousel-topics {
+         height: 80vh;
+         padding: 30% 0 !important;
+     }
      .beginchallenge {
          padding: 1% 8%;
          color: #FDFDFC;
@@ -156,8 +174,9 @@
          line-height: 20px;
      }
      .d-lg-none div.logo {
-         padding: 7% 1px;
+         padding: 7% 1px !important;
          width: 30%;
+         margin-left: 7%;
      }
      .d-lg-none .webdev,
      .d-lg-none .machinelearning,
