@@ -9,7 +9,7 @@ Add the link to the respective page:
 1.Go to Calendar/Calendar-{nameofthechallenge}.html
 2.After the line number 200(approx) you will find something like this:
 Select div with id="day for which you are updating"
-<div class="collapse " id="{{day_your_are_updating}}" data-parent="#myGroup">
+<!-- <div class="collapse " id="{{day_your_are_updating}}" data-parent="#myGroup">
     <div **class="disabled"**> Remove this class and replace it with "<div>"
         **add image path in "a" tag href**
         <a href="Challenges/{nameofthechallenge}/{day(2digits minimum)}_{shortnameofthechallenge}" download>
@@ -17,4 +17,4 @@ Select div with id="day for which you are updating"
             <div class=" heading2">To Download Today's Challenge</div>
         </a>
     </div>
-</div>
+</div> -->
