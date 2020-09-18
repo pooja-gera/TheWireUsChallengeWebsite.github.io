@@ -2,8 +2,8 @@
 
 #For Updating Challenges:<br>
 To add the Poster:<br>
-1.Go to Calendar/Challenges/{nameofthechallenge}<br>
-2.Save the file/image name as {day(2digits minimum)}_{shortnameofthechallenge}<br>
+1.Go to Calendar/Challenges/{nameofthechallenge}   For example Calendar/Challenges/SQL<br>
+2.Save the file/image name as {day(2digits minimum)}_{shortnameofthechallenge}  For example 02_SQL.png <br>
 
 Add the link to the respective page:<br>
 1.Go to Calendar/Calendar-{nameofthechallenge}.html<br>
@@ -21,4 +21,16 @@ Select div with id="day for which you are updating"<br>
     </div>
 </div>
 
+```
+
+For example updating day 2 of sql:
+```html
+<div class="collapse " id="{{day_your_are_updating}}" data-parent="#myGroup">
+    <div> 
+        <a href="Challenges/SQL/02_SQL.png" download>
+            <div class=" heading1">Click Here</div>
+            <div class=" heading2">To Download Today's Challenge</div>
+        </a>
+    </div>
+</div>
 ```
