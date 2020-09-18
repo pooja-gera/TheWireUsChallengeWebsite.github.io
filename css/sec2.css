@@ -1,8 +1,13 @@
+ @font-face {
+     font-family: "TT Norms";
+     src: url("../fonts/TT-Norms/TTNorms-Regular.otf");
+ }
+ 
  .signupforc {
      font-family: Poppins;
      font-style: normal;
      font-weight: bold;
-     line-height: 125px;
+     line-height: 55px;
      /* or 100% */
      text-align: center;
      font-size: 65px;
@@ -15,7 +20,7 @@
      border-radius: 173.122px;
      padding: 1% 10%;
      color: #FDFDFC;
-     font-family: TT Norms;
+     font-family: TT Norms !important;
      font-style: normal;
      font-weight: normal;
      margin-top: 10%;
@@ -88,6 +93,17 @@
      transition-timing-function: cubic-bezier(1, 5, 9, 6);
  }
  
+ @media(max-width: 950px) {
+     .d-lg-none .webdev,
+     .d-lg-none .machinelearning,
+     .d-lg-none .design,
+     .d-lg-none .competitive_p {
+         /* width: 95%; */
+         height: 300px;
+         margin: 2% 3%;
+     }
+ }
+ 
  @media (min-width: 755px) and (max-width: 1080px) {
      .d-lg-none .webdev,
      .d-lg-none .machinelearning,
@@ -105,6 +121,15 @@
          margin: 0 auto;
          width: 45% !important;
          height: auto;
+     }
+ }
+ 
+ @media (min-width: 750px) and (max-width: 1080px) {
+     .topicimg {
+         margin: 0 auto;
+         width: 55% !important;
+         height: auto;
+         padding: 2% 2%;
      }
  }
  
@@ -142,8 +167,18 @@
          height: 200px;
          margin: 2% 3%;
      }
+     /* .align-items-center span.text-head {
+         padding-top: 55%;
+         font-size: large;
+         line-height: 20px;
+     } */
+     .align-items-center .beginchallenge {
+         margin-top: 1%;
+         padding: 1% 8%;
+         color: #FDFDFC;
+     }
      .signupforc {
-         font-size: 45px;
+         font-size: 35px;
          line-height: 40px;
      }
  }

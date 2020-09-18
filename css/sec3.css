@@ -37,10 +37,19 @@
 
 @media (max-width:550px) {
     .head3 {
-        font-size: 5vw;
+        font-size: 6vw;
         padding: 5%;
     }
     .backcolor3 {
         height: auto;
+    }
+    .box1,
+    .box2 {
+        padding: 5%;
+        padding-bottom: 0;
+        margin-top: 5%;
+    }
+    .box1 {
+        width: 100%;
     }
 }
