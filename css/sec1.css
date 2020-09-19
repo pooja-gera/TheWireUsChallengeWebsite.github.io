@@ -4,6 +4,10 @@ a.activenav {
     color: rgb(50, 45, 51) !important;
 }
 
+.nav {
+    background: linear-gradient(0deg, #8390BE, #8390BE);
+}
+
 .navbar-center {
     position: absolute;
     left: 50%;
