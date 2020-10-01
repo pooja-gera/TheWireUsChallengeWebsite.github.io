@@ -1,0 +1,234 @@
+.rectangle-containing-calendar {
+    position: absolute;
+    width: 1895.5px;
+    height: 1091.01px;
+    left: 541.75px;
+    top: 414.69px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: -70px -71px 83px -28px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.bgimage {
+    position: absolute;
+    width: 3200px;
+    height: 4000px;
+    left: -76px;
+    top: -371px;
+    background: url(alex-pflaum-sQzhQLdYaP4-unsplash.jpg);
+}
+
+.heading {
+    position: absolute;
+    width: 596px;
+    height: 96.23px;
+    left: 666.23px;
+    top: 563.69px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77.6042px;
+    line-height: 78px;
+    /* or 100% */
+    color: #27272F;
+}
+
+.topic-display-container {
+    position: absolute;
+    width: 750px;
+    height: 840px;
+    left: 1536px;
+    top: 534px;
+    background: #828FB6;
+    border-radius: 90px;
+}
+
+.underline {
+    position: absolute;
+    width: 706px;
+    height: 7px;
+    left: 672px;
+    top: 739px;
+    background: #27272F;
+}
+
+.topic-heading-row1 {
+    position: absolute;
+    width: 903px;
+    height: 153.98px;
+    left: 1459px;
+    top: 895px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 218.825px;
+    line-height: 0px;
+    /* or 0% */
+    text-align: center;
+    color: #FFF7ED;
+}
+
+.topic-heading-row2 {
+    position: absolute;
+    width: 590.69px;
+    height: 55.68px;
+    left: 1616px;
+    top: 1001px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75.8529px;
+    line-height: 62px;
+    /* or 82% */
+    text-align: center;
+    color: #FFF7ED;
+}
+
+.background-panda {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 1655px;
+    top: 704px;
+    background: url(panda.png);
+    background-blend-mode: soft-light;
+    /*Add 20% opacity*/
+}
+
+.day-focus-ellipse {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 682px;
+    top: 836px;
+    background: #768FC1;
+}
+
+/*The undermentioned classes are for the positioning of numbers*/
+
+.one {
+    position: absolute;
+    width: 11px;
+    height: 44px;
+    left: 702px;
+    top: 842px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #FFF7ED;
+}
+
+.two {
+    position: absolute;
+    width: 11px;
+    height: 44px;
+    left: 807px;
+    top: 840px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #27272F;
+}
+
+.three {
+    position: absolute;
+    width: 11px;
+    height: 44px;
+    left: 916px;
+    top: 840px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #27272F;
+}
+
+.four {
+    position: absolute;
+    width: 11px;
+    height: 44px;
+    left: 1023px;
+    top: 840px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #27272F;
+}
+
+.five {
+    position: absolute;
+    width: 11px;
+    height: 44px;
+    left: 1136px;
+    top: 840px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #27272F;
+}
+
+.six {
+    position: absolute;
+    width: 11px;
+    height: 44px;
+    left: 1237px;
+    top: 840px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #27272F;
+}
+
+.seven {
+    position: absolute;
+    width: 11px;
+    height: 44px;
+    left: 1342px;
+    top: 839px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 40px;
+    color: #27272F;
+}
+
+/*In accordance with the positions of above 1-7 numbers, you have to place all the other numbers. The size and position of row containers are mentioned under.*/
+
+.row2-container {
+    /*Add numbers from 8 to 14*/
+    position: absolute;
+    width: 676px;
+    height: 45px;
+    left: 702px;
+    top: 953px;
+}
+
+.row3-container {
+    /*Add numbers from 15 to 21*/
+    position: absolute;
+    width: 676px;
+    height: 45px;
+    left: 702px;
+    top: 1068px;
+}
+
+.row4-container {
+    /*Add numbers from 22 to 28*/
+    position: absolute;
+    width: 692px;
+    height: 45px;
+    left: 702px;
+    top: 1181px;
+}
