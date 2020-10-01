@@ -1,0 +1,416 @@
+/*Screen 4 CSS*/
+
+
+/* Make the image fully responsive */
+
+.meetus {
+    /* margin: 0 10%; */
+    margin-top: 25px;
+    margin-right: 0;
+    border-radius: 25px;
+    background-color: red;
+}
+
+.meetushead {
+    margin: auto;
+    font-size: large;
+    color: #fff;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.followus {
+    border-radius: 25px;
+    background: #27272F;
+    margin: 0 10%;
+    margin-top: 15px;
+}
+
+
+/* */
+
+.screen4carouselimg {
+    width: 30%;
+    height: 125px;
+    border-radius: 50%;
+    margin: 50px auto;
+    margin-bottom: 15px;
+}
+
+.followustitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFF7ED;
+    text-align: center;
+    margin: auto;
+}
+
+.name {
+    font-size: x-large;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    color: #FFF7ED;
+}
+
+.position {
+    font-size: large;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.team {
+    animation-name: team;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.followus {
+    padding: 2% 10%;
+}
+
+.followustitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.socialimage {
+    max-width: 65px;
+    transition: transform .4s;
+    /* Animation */
+}
+
+.socialimage:hover {
+    transform: scale(1.2);
+}
+
+@keyframes team {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(200px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes creatoritem {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateY(-200px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.creator {
+    background: #828FB6;
+    margin: 0 10%;
+    min-height: 250px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.quoteofcreator {
+    font-size: 25px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#creators {
+    margin: 5%;
+    padding: 2%;
+    width: 100%;
+    height: 220px;
+}
+
+.co-creator-img {
+    width: 75px !important;
+    height: 75px !important;
+    margin: 0 auto;
+}
+
+.bluebox-pos {
+    font-size: small;
+}
+
+.bluebox-name {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.creator-content {
+    padding-top: 10%;
+}
+
+.itemofcreator_c {
+    padding: 5% 10%;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width:900px) {
+    .meetus {
+        margin: 0 10%;
+        margin-top: 25px;
+        border-radius: 25px;
+        background-color: red;
+    }
+    .socialimage {
+        max-width: 45px;
+        max-height: 105px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .screen4carouselimg {
+        width: 40%;
+        height: 90px;
+    }
+    .socialimage {
+        max-width: 25px;
+        max-height: 105px;
+    }
+    .followustitle {
+        font-size: large;
+    }
+}
+
+
+/* FINAL */
+
+.team-c-img {
+    height: 180px;
+    width: 180px;
+}
+
+.team-container {
+    margin-top: 5%;
+    background: #C44239;
+    border-radius: 46.1059px;
+    width: 100%;
+    height: 90%;
+}
+
+.meet-us {
+    position: relative;
+    top: 5%;
+    color: #FDFDFC;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38.318px;
+    /* or 127% */
+    text-align: center;
+}
+
+.click-see-all {
+    padding: 2%;
+    color: #FDFDFC;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.2847px;
+}
+
+.click-see-all a {
+    color: #FDFDFC;
+}
+
+#name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.2824px;
+    /* or 243% */
+    text-align: center;
+    color: #FDFDFC;
+    position: relative;
+    top: 46%;
+}
+
+#title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20.515px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #FDFDFC;
+    position: relative;
+    top: 42%;
+}
+
+.items {
+    position: relative;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+.items .item {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+    opacity: 0;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item.active {
+    opacity: 1;
+    z-index: 99;
+    box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+}
+
+.item.prev {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(-125%, -50%);
+    width: 100px;
+    height: 100px;
+}
+
+.item.next {
+    z-index: 2;
+    opacity: 0.25;
+    transform: translate(25%, -50%);
+    width: 100px;
+    height: 100px;
+}
+
+.items .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 275px;
+    z-index: 100;
+}
+
+.button-container .button {
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.75;
+    transition: all 300ms ease-in-out;
+}
+
+.button-container .button:hover {
+    opacity: 1;
+}
+
+.button-container .button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 50%;
+    z-index: -99;
+}
+
+.button-container .button:nth-child(1) {
+    float: left;
+}
+
+.button-container .button:nth-child(2) {
+    float: right;
+}
+
+.quoteofcreator .text-center {
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .quoteofcreator .text-center {
+        font-size: 20px;
+        min-height: 60px;
+    }
+    .creator-content {
+        text-align: center;
+    }
+    creator-content .itemofcreator_c {
+        min-height: 300px;
+    }
+    .followus {
+        padding: 5% 10%;
+    }
+    .followus {
+        border-radius: 10px;
+    }
+    .team-container {
+        background: #C44239;
+        border-radius: 46.1059px;
+        width: auto;
+        height: 350px;
+    }
+    #name {
+        top: 52%;
+        font-size: 20px;
+    }
+    #title {
+        top: 52%;
+        font-size: 12px;
+    }
+    /* .click-see-all {
+        margin-left: 25%;
+    } */
+    .button-container .button:before {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .team-container {
+        height: 450px;
+    }
+}
+
+@media (max-width:786px) {
+    div#creators {
+        height: auto;
+        /* width: 300px; */
+        width: 100%;
+        margin: 0;
+        min-height: 315px;
+    }
+}
+
+
+/* FINAL */

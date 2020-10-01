@@ -1,0 +1,236 @@
+ /* Make the image fully responsive */
+ 
+ .c-img {
+     width: 25%;
+     height: 150px;
+     max-height: 150px;
+     margin: 5% auto;
+     margin-bottom: 0;
+ }
+ 
+ .c-img-webdev {
+     width: 35%;
+     height: 150px;
+     max-height: 150px;
+     margin: 5% auto;
+     margin-bottom: 0;
+ }
+ 
+ .topic-header {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     line-height: 55px;
+     padding: 3% 5%;
+     /* margin: 0 25%; */
+     color: #3D3434;
+ }
+ 
+ .heading {
+     font-size: 55px;
+ }
+ 
+ .click-to-go-back {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 17.9731px;
+     text-align: center;
+     color: #8391C0;
+ }
+ 
+ #design-card {
+     /* width: 50%; */
+     /* height: 250px; */
+     margin: 0 20%;
+     background: #27272F;
+     box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+     border-radius: 32px;
+     padding: 2% 0;
+ }
+ 
+ #ui-card,
+ #css-draw-card {
+     /* width: 30%; */
+     /* height: 250px; */
+     margin: 0 15%;
+     background: #27272F;
+     box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+     border-radius: 32px;
+     padding: 5% 0;
+ }
+ 
+ #python-card,
+ #sql-card,
+ #data-ana-card,
+ #ml-card,
+ #javascript-card,
+ #react-card,
+ #csstricks-card {
+     width: 100%;
+     height: 100%;
+     background: #27272F;
+     box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+     border-radius: 32px;
+     padding: 5% 0;
+ }
+ 
+ #webscrap-card,
+ #js-dsa-card {
+     background: #8490BD;
+     width: 100%;
+     height: 100%;
+     box-shadow: 0px 2.97483px 2.97483px rgba(0, 0, 0, 0.2);
+     border-radius: 32px;
+     padding: 5% 0;
+ }
+ 
+ .box-head {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 250%;
+     line-height: 35px;
+ }
+ 
+ .box-head a {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 10px;
+ }
+ 
+ .nameofcm {
+     font-family: Poppins;
+     font-style: normal;
+     font-size: 225%;
+ }
+ 
+ .challenge-master {
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 125%;
+ }
+ 
+ @media (max-width: 800px) {
+     .c-img,
+     .c-img-webdev {
+         min-width: 35%;
+         height: auto;
+     }
+     .col-md {
+         margin: 5% 0 !important;
+     }
+     .box-head {
+         font-size: 150%;
+         line-height: 25px;
+     }
+     .box-head a {
+         font-size: 12px;
+         line-height: 5px;
+     }
+     .nameofcm {
+         font-size: 125%;
+     }
+     .challenge-master {
+         font-size: 75%;
+     }
+ }
+ 
+ @media (max-width: 1000px) {
+     .box-head {
+         font-size: 150%;
+         line-height: 25px;
+     }
+     .nameofcm {
+         font-size: 125%;
+     }
+     .challenge-master {
+         font-size: 75%;
+     }
+ }
+ 
+ @media (max-width: 500px) {
+     .heading {
+         font-size: 30px;
+         line-height: 30px;
+     }
+     .click-to-go-back {
+         font-size: 12px;
+     }
+     #design-card,
+     #ui-card,
+     #css-draw-card {
+         width: auto;
+     }
+     #ui-card,
+     #css-draw-card,
+     #python-card,
+     #sql-card,
+     #data-ana-card,
+     #ml-card,
+     #webscrap-card,
+     #react-card,
+     #js-dsa-card,
+     #javascript-card,
+     #csstricks-card,
+     #design-card {
+         margin: 0 !important;
+     }
+     .col-sm {
+         margin: 5% 0 !important;
+     }
+     .c-img,
+     .c-img-webdev {
+         min-width: 35%;
+         height: 105px;
+     }
+     .box-head {
+         font-size: 150%;
+         line-height: 25px;
+     }
+     .box-head a {
+         font-size: 12px;
+         line-height: 5px;
+     }
+     .nameofcm {
+         font-size: 125%;
+     }
+     .challenge-master {
+         font-size: 75%;
+     }
+ }
+ 
+ @media (min-width: 430px) and (max-width: 765px) {
+     .c-img,
+     .c-img-webdev {
+         min-width: 35%;
+         min-height: 185px;
+     }
+ }
+ 
+ @media (min-width: 375px) and (max-width: 430px) {
+     .c-img,
+     .c-img-webdev {
+         min-width: 35%;
+         min-height: 125px;
+     }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+     .c-img,
+     .c-img-webdev {
+         min-width: 35%;
+         height: 90px;
+     }
+ }
+ 
+ @media (min-width: 992px) and (max-width: 1200px) {
+     .c-img,
+     .c-img-webdev {
+         min-width: 35%;
+         height: 70px;
+     }
+ }
